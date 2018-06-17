@@ -1,0 +1,101 @@
+body {
+	margin-top: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+header {
+	width: 100%;
+	background: #fff;
+}
+#btn-menu {
+	display: none;
+}
+header label {
+	display: none;
+	width: 45px;
+	height: 45px;
+	padding: 10px;
+}
+header label:hover {
+	cursor: pointer;
+}
+.menu ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+.menu li {
+	text-align: center;
+	flex-grow: 1;
+}
+.menu li:hover {
+	background: rgba(0,0,0,0.2);
+}
+.menu li a{
+	display: block;
+	padding: 12px 30px;
+	color: #193441;
+	text-decoration: none;
+}
+.menu li ul {
+	display: none;
+	position: absolute;
+	min-width: 150px;
+	text-align: center;
+}
+.menu li:hover > ul {
+	display: block;
+}
+.menus ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	background-color: #E2ECEE;	
+}
+.menus li {
+	text-align: center;
+	flex-grow: 1;
+}
+.menus li:hover {
+	background: rgba(0,0,0,0.2);
+}
+.menus li a{
+	display: block;
+	padding: 12px 15px;
+	color: #193441;
+	text-decoration: none;
+}
+@media (max-width: 768px) {
+	header label {
+		display: block;
+	}
+	.menu {
+		position:absolute;
+		background: #fff; 
+		width: 20%;
+		margin-left: -70%;
+		transition: all 0.5s;
+	}
+	.menu ul {
+			flex-direction: column;
+	}
+	.menu li {
+		border-top: 1px solid #CFD1C9;
+	}
+	.menu li ul {
+		position: relative;
+	}
+	.menu li ul {
+		right: -140px
+		top: 0px;
+	}
+	#btn-menu:checked ~ .menu {
+		margin: 0;
+	}
+	#contenidoprincipal {
+		margin-top: 50px;
+
+	}
+}

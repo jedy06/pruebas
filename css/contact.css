@@ -1,0 +1,23 @@
+*{
+	padding: 2px
+	margin: 5px;
+}
+#header{
+	width: 150px;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+li, ol {
+	list-style: none;
+}
+.bad li a {
+	background-color: #D1DBBD;
+	color: #193472;
+	text-decoration: none;
+	padding: 12px 15px;
+	display:block;
+	text-align: center; 
+}
+.bad li a:hover {
+	background-color: #91AA9D;
+}

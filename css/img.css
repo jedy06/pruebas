@@ -1,0 +1,27 @@
+img{
+	max-width: 100%;
+}
+.image {
+	margin-top: 40px;
+	max-width: 100%;
+}
+.quitar-float{
+	float: center;
+}
+.espacio-abajo{
+	margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+	.image {
+		max-width: 40%;
+		margin-top: 50px;
+	}
+@media (max-width: 768px) {
+	.image {
+		max-width: 50%;
+	}
+	.image {
+		margin-top: 30px;
+	}
+}
+

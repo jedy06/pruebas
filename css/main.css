@@ -1,0 +1,142 @@
+head{ 
+	padding: 2px;
+	margin: 5px;
+}
+
+#header{
+	width: 150px;
+	padding: 0px;
+	margin: left;
+}
+ul, ol {
+	list-style: none;
+}
+.nav li a {
+	background-color: #D1DBBD;
+	color: #193472;
+	text-decoration: none;
+	padding: 10px 12px;
+	display:block;
+	text-align: center;
+}
+.nav li a:hover {
+	background-color: #91AA9D;
+}
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 150px;
+}
+.nav li:hover > ul {
+	display: block;
+}
+.nav li ul {
+	position: relative;
+}
+.nav li ul {
+	right: -110px;
+	top: 0px;
+}
+
+body{
+	height: 100%;
+	background-color: white;
+	color: #1222A7;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+*{
+	margin: 0;
+}
+.contenidoprincipal {
+	height: 80%;
+}
+.grande{
+	font-size: 3em;
+}
+.piedepagina {
+	height: 50px;
+	margin-top: -50px;
+	text-align: center;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+.espacio-derecha{
+	margin-right: 2em;
+}
+.espacio-izquierda{
+	margin-left: 2em;
+}
+.espacio-arriba{
+	margin-top: 50px;
+}
+.no-lista li{
+list-style-type: none;
+}
+.contact {
+	margin-top: 50px;
+	text-align: center;
+}
+.se-gris{
+	background-color: #eee;
+}
+.nosotros {
+	margin-top: 150px;
+	text-align: center;
+}
+.google-maps {
+	position: relative;
+	padding-bottom: 40%;
+	height: 0;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+}
+/*.google-maps iframe {
+	position: absolute;
+	top: 30px;
+	width: 50% !important;
+	height: 50% !important;
+	text-align: left: 
+
+}*/
+#mapa{
+	top: 30px;
+	width: 50%;
+	height: 30%;
+
+}
+
+.padding-largo{
+	padding: 5px 10px;
+}
+.ve-arriba{
+	vertical-align: top;
+}
+.mediano{
+	font-size: 1.5em;
+}
+.retraso1{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.retraso2{
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+.retraso3{
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	animation-delay: 3s;
+}
+@media (max-width: 768px) {
+	.nosotros {
+		max-width: 70%
+		margin-top: 50px;
+	}
+}
